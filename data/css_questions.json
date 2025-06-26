@@ -1,0 +1,122 @@
+[
+  {
+    "title": "What Does CSS Stand For?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Colorful Style Sheets",
+    "answer_3": "Computer Style Sheets",
+    "answer_4": "Cascading Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which Property Is Used To Change Text Color?",
+    "answer_1": "text-color",
+    "answer_2": "font-color",
+    "answer_3": "color",
+    "answer_4": "text-style",
+    "right_answer": "color"
+  },
+  {
+    "title": "How Do You Add Background Color?",
+    "answer_1": "bg-color",
+    "answer_2": "background-color",
+    "answer_3": "color-background",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which Value Makes Element Invisible But Still Takes Space?",
+    "answer_1": "none",
+    "answer_2": "hidden",
+    "answer_3": "display: none",
+    "answer_4": "visibility: hidden",
+    "right_answer": "visibility: hidden"
+  },
+  {
+    "title": "What Is The Default Position Value?",
+    "answer_1": "absolute",
+    "answer_2": "fixed",
+    "answer_3": "static",
+    "answer_4": "relative",
+    "right_answer": "static"
+  },
+  {
+    "title": "Which Property Controls The Spacing Between Letters?",
+    "answer_1": "letter-spacing",
+    "answer_2": "word-spacing",
+    "answer_3": "text-spacing",
+    "answer_4": "line-height",
+    "right_answer": "letter-spacing"
+  },
+  {
+    "title": "How To Make Text Italic Using CSS?",
+    "answer_1": "font-style: italic;",
+    "answer_2": "text-style: italic;",
+    "answer_3": "font-weight: bold;",
+    "answer_4": "text-decoration: underline;",
+    "right_answer": "font-style: italic;"
+  },
+  {
+    "title": "What Does The Z-Index Property Do?",
+    "answer_1": "Controls Vertical Stacking Order",
+    "answer_2": "Controls Horizontal Position",
+    "answer_3": "Changes Element Color",
+    "answer_4": "Defines Font Size",
+    "right_answer": "Controls Vertical Stacking Order"
+  },
+  {
+    "title": "How Do You Center A Block Element Horizontally?",
+    "answer_1": "margin: 0 auto;",
+    "answer_2": "text-align: center;",
+    "answer_3": "padding: 0 auto;",
+    "answer_4": "align-items: center;",
+    "right_answer": "margin: 0 auto;"
+  },
+  {
+    "title": "What Property Is Used To Change The Font Size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "font-style",
+    "answer_4": "text-font",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "Which Property Controls The Space Between Lines?",
+    "answer_1": "line-height",
+    "answer_2": "letter-spacing",
+    "answer_3": "word-spacing",
+    "answer_4": "text-indent",
+    "right_answer": "line-height"
+  },
+  {
+    "title": "How To Make Text Bold In CSS?",
+    "answer_1": "font-weight: bold;",
+    "answer_2": "text-bold: true;",
+    "answer_3": "font-style: bold;",
+    "answer_4": "text-style: bold;",
+    "right_answer": "font-weight: bold;"
+  },
+  {
+    "title": "What Property Is Used To Remove The Underline From Links?",
+    "answer_1": "text-decoration: none;",
+    "answer_2": "underline: none;",
+    "answer_3": "link-decoration: none;",
+    "answer_4": "text-style: none;",
+    "right_answer": "text-decoration: none;"
+  },
+  {
+    "title": "Which Property Defines The Background Image?",
+    "answer_1": "background-image",
+    "answer_2": "bg-image",
+    "answer_3": "image-background",
+    "answer_4": "background",
+    "right_answer": "background-image"
+  },
+  {
+    "title": "How To Set Element Opacity?",
+    "answer_1": "opacity",
+    "answer_2": "transparency",
+    "answer_3": "alpha",
+    "answer_4": "filter-opacity",
+    "right_answer": "opacity"
+  }
+]

@@ -1,0 +1,139 @@
+/* Reset and basics */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+body.dark-mode .bg-white {
+  background-color: #1e1e1e !important;
+}
+
+.quiz-area h2 {
+  margin: 0 0 10px 0;
+}
+
+/* تنسيق خيارات الإجابة بالكامل كـ label */
+.answers-area label.answer {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  border: 2px solid transparent;
+  font-weight: normal;
+  font-size: 15px;
+  color: #333;
+}
+
+/* الوضع الداكن للخيارات */
+body.dark-mode .answers-area label.answer {
+  background-color: #3a3a3a;
+  color: #eee;
+}
+
+/* إخفاء عناصر الإدخال الراديو */
+.answers-area input[type="radio"] {
+  display: none;
+}
+
+/* عندما يتم اختيار جواب: تغيير خلفية النص، اللون، والحدود */
+.answers-area input[type="radio"]:checked + span {
+  padding-left: 1opx;
+  display: inline-block;
+  font-weight: bolder;
+}
+
+/* عند التمرير على الإجابة */
+.answers-area label.answer:hover {
+  background-color: #e1ecff;
+  color: #0075ff;
+  border-color: #0075ff;
+}
+
+/* تمرير الوضع الداكن */
+body.dark-mode .answers-area label.answer:hover {
+  background-color: #405ea9;
+  color: #cddcff;
+  border-color: #90caf9;
+}
+
+.submit-button {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+/* نقاط الأسئلة (البوليتس) */
+.bullets .spans span {
+  width: 22px;
+  height: 22px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bullets .spans span.on {
+  background-color: #0075ff;
+}
+
+.bullets .countdown {
+  color: #333;
+}
+
+body.dark-mode .bullets .countdown {
+  color: #eee;
+}
+
+.results span.bad {
+  color: #dc0a0a;
+}
+
+.results span.good {
+  color: #009688;
+}
+
+.results span.perfect {
+  color: #0075ff;
+}
+
+/* زر تبديل الثيم */
+#toggle-theme {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+#toggle-theme:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .bullets {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "title": "What Is JavaScript?",
+    "answer_1": "A Style Sheet Language",
+    "answer_2": "A Markup Language",
+    "answer_3": "A Programming Language",
+    "answer_4": "A Database",
+    "right_answer": "A Programming Language"
+  },
+  {
+    "title": "Which Symbol Is Used For Comments In JavaScript?",
+    "answer_1": "//",
+    "answer_2": "/* */",
+    "answer_3": "<!-- -->",
+    "answer_4": "#",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which Keyword Declares A Variable?",
+    "answer_1": "var",
+    "answer_2": "let",
+    "answer_3": "const",
+    "answer_4": "All Are Correct",
+    "right_answer": "All Are Correct"
+  },
+  {
+    "title": "What Will 'typeof null' Return?",
+    "answer_1": "object",
+    "answer_2": "null",
+    "answer_3": "undefined",
+    "answer_4": "false",
+    "right_answer": "object"
+  },
+  {
+    "title": "What Does DOM Stand For?",
+    "answer_1": "Document Object Model",
+    "answer_2": "Data Object Management",
+    "answer_3": "Digital Output Module",
+    "answer_4": "Dynamic Object Manipulation",
+    "right_answer": "Document Object Model"
+  },
+  {
+    "title": "Which Method Adds An Element To The End Of An Array?",
+    "answer_1": "push()",
+    "answer_2": "pop()",
+    "answer_3": "shift()",
+    "answer_4": "unshift()",
+    "right_answer": "push()"
+  },
+  {
+    "title": "How To Declare A Function In JavaScript?",
+    "answer_1": "function myFunc() {}",
+    "answer_2": "def myFunc() {}",
+    "answer_3": "func myFunc() {}",
+    "answer_4": "function:myFunc() {}",
+    "right_answer": "function myFunc() {}"
+  },
+  {
+    "title": "What Is NaN In JavaScript?",
+    "answer_1": "Not A Number",
+    "answer_2": "Null And Nothing",
+    "answer_3": "Number And Name",
+    "answer_4": "Nothing At All",
+    "right_answer": "Not A Number"
+  },
+  {
+    "title": "Which Event Occurs When A User Clicks On An Element?",
+    "answer_1": "onclick",
+    "answer_2": "onmouseclick",
+    "answer_3": "onpress",
+    "answer_4": "onmousedown",
+    "right_answer": "onclick"
+  },
+  {
+    "title": "Which Object Represents The Browser Window?",
+    "answer_1": "window",
+    "answer_2": "document",
+    "answer_3": "navigator",
+    "answer_4": "screen",
+    "right_answer": "window"
+  },
+  {
+    "title": "How Do You Write A Conditional Statement In JavaScript?",
+    "answer_1": "if (condition) {}",
+    "answer_2": "when (condition) {}",
+    "answer_3": "for (condition) {}",
+    "answer_4": "while (condition) {}",
+    "right_answer": "if (condition) {}"
+  },
+  {
+    "title": "Which Keyword Is Used To Exit A Loop?",
+    "answer_1": "break",
+    "answer_2": "exit",
+    "answer_3": "stop",
+    "answer_4": "return",
+    "right_answer": "break"
+  },
+  {
+    "title": "What Will 'typeof []' Return?",
+    "answer_1": "array",
+    "answer_2": "object",
+    "answer_3": "undefined",
+    "answer_4": "null",
+    "right_answer": "object"
+  },
+  {
+    "title": "Which Method Converts JSON To JavaScript Object?",
+    "answer_1": "JSON.parse()",
+    "answer_2": "JSON.stringify()",
+    "answer_3": "JSON.convert()",
+    "answer_4": "JSON.toObject()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What Is The Use Of 'this' Keyword In JavaScript?",
+    "answer_1": "Refers To Current Object",
+    "answer_2": "Refers To Global Object",
+    "answer_3": "Refers To Function",
+    "answer_4": "Refers To Variable",
+    "right_answer": "Refers To Current Object"
+  }
+]
